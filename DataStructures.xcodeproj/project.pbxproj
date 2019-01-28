@@ -38,6 +38,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B96F6B3C21FF5C40009DF69A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B96F6B3D21FF5C4C009DF69A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B96F6B3E21FF5C51009DF69A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B96F6B3F21FF5C6E009DF69A /* Diagrams */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Diagrams;
+			sourceTree = "<group>";
+		};
 		B98795F321FF5B4D00C39901 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +85,10 @@
 		B98795FE21FF5B4D00C39901 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				B96F6B3F21FF5C6E009DF69A /* Diagrams */,
+				B96F6B3E21FF5C51009DF69A /* Controller */,
+				B96F6B3D21FF5C4C009DF69A /* Model */,
+				B96F6B3C21FF5C40009DF69A /* Resources */,
 				B98795FF21FF5B4D00C39901 /* main.cpp */,
 			);
 			path = DataStructures;
