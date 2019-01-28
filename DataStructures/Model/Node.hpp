@@ -22,5 +22,17 @@ public:
     void setData(Type data);
 };
 
+template <class Type>
+Node<Type> :: getData()
+{
+    return data;
+}
+
+template <class Type>
+void Node<Type> :: setData(Type data)
+{
+    this->data = data;
+}
+
 
 #endif /* Node_hpp */
