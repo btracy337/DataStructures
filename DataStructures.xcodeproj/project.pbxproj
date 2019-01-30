@@ -52,7 +52,7 @@
 		B96F6B3D21FF5C4C009DF69A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B96F6B4821FF60D8009DF69A /* Node.hpp */,
+				B9DA7CDE2201F0BB00AB9C24 /* Nodes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +99,14 @@
 				B96F6B3C21FF5C40009DF69A /* Resources */,
 			);
 			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		B9DA7CDE2201F0BB00AB9C24 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				B96F6B4821FF60D8009DF69A /* Node.hpp */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
