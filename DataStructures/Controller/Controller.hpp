@@ -17,6 +17,7 @@ private:
     void usingNodes();
 public:
     void start();
+    void funLoop();
     
 };
 
