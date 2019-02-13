@@ -17,8 +17,8 @@
 #include "../Model/Linear/Array.hpp"
 #include "../Model/Linear/LinkedList.hpp"
 //#include "../Model/NonLinear/BinarySearchTree.hpp"
-//#include "../Resources/CrimeData.hpp"
-//#include "../Resources/Music.hpp"
+#include "../Resources/CrimeData.hpp"
+#include "../Resources/Music.hpp"
 
 using namespace std;
 class FileController

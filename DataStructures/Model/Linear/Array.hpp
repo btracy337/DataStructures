@@ -6,8 +6,8 @@
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-#ifndef Array_h
-#define Array_h
+#ifndef Array_hpp
+#define Array_hpp
 #include <assert.h>
 #include <iostream>
 
@@ -113,4 +113,4 @@ Type Array<Type> :: setAtIndex(int pos, Type item)
     
 }
 
-#endif /* Array_h */
+#endif /* Array_hpp */

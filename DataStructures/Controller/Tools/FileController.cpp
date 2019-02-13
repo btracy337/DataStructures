@@ -1,7 +1,7 @@
 //
 //  FileController.cpp
 //  DataStructures
-//
+///Users/btra7742/Documents/C++/DataStructures/DataStructures/Controller
 //  Created by Tracy, Bryan on 2/13/19.
 //  Copyright © 2019 CTEC. All rights reserved.
 //
@@ -23,7 +23,20 @@ LinkedList<CrimeData> FileController :: readDataToList(string fileName)
         {
             getline(dataFile, currentCSVLine, '\r');
             if(rowCount != 0)
+            {
+                if(currentCSVLine.length() != 0)
+                {
+                    CrimeData row(currentCSVLine);
+                    crimes.add(row);
+                }
+            }
+            rowCount++;
         }
+        dataFile.close();
     }
+    else{
+        cerr << "NO FILE" << endl;
+    }
+    return crimes;
     
 }
