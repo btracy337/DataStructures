@@ -14,11 +14,11 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include "../Model/Linear/Array.hpp"
-#include "../Model/Linear/LinkedList.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/Array.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/LinkedList.h"
 //#include "../Model/NonLinear/BinarySearchTree.hpp"
-#include "../Resources/CrimeData.hpp"
-#include "../Resources/Music.hpp"
+#include "/Users/btra7742/Downloads/CrimeData.hpp"
+#include "/Users/btra7742/Downloads/Music.hpp"
 
 using namespace std;
 class FileController
@@ -26,15 +26,15 @@ class FileController
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
     static LinkedList<CrimeData> readDataToList(string filename);
-    static BinarySearchTree<CrimeData> readDataToTree(string filename);
+    //static BinarySearchTree<CrimeData> readDataToTree(string filename);
     
     static vector<Music> musicDataToVector(string filename);
     
     static Array<Music> musicDataToArray(string filename);
     static LinkedList<Music> musicDataToList(string filename);
-    static BinarySearchTree<Music> musicDataToTree(string filename);
+    //static BinarySearchTree<Music> musicDataToTree(string filename);
     
-}
+};
 
 
 #endif /* FileController_hpp */

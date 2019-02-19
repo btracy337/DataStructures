@@ -104,13 +104,10 @@ Type Array<Type> :: getFromIndex(int index)
     return value;
 }
 template <class Type>
-Type Array<Type> :: setAtIndex(int pos, Type item)
+void Array<Type> :: setAtIndex(int pos, Type item)
 {
     assert(pos >= 0 && pos < size);
     internalArray[pos] = item;
-}
-{
-    
 }
 
 #endif /* Array_hpp */

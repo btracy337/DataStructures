@@ -28,7 +28,7 @@ public:
     void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
-}
+};
 template <class Type>
 Queue<Type> :: Queue() : LinkedList<Type>()
 {
@@ -66,12 +66,12 @@ void Queue<Type> :: addAtIndex(int index, Type item)
     enqueue(item);
 }
 template <class Type>
-Type Queue<Type> :: add(Type item)
+void Queue<Type> :: add(Type data)
 {
-    enqueue(item);
+    enqueue(data);
 }
 template <class Type>
-Type Queue<Type> :: dequeue
+Type Queue<Type> :: dequeue()
 {
     assert(this->size > 0);
     Type returned = this->front->getData();
@@ -90,7 +90,7 @@ Type Queue<Type> :: remove(int index)
     return dequeue();
 }
 template <class Type>
-Type Queue<Type> :: clear()
+void Queue<Type> :: clear()
 {
     while(this->front != nullptr)
     {

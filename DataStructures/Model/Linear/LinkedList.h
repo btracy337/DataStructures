@@ -8,7 +8,9 @@
 
 #ifndef LinkedList_h
 #define LinkedList_h
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/List.h"
 using namespace std;
+
 
 
 
@@ -70,7 +72,7 @@ LinkedList<Type> :: LinkedList()
 
 template <class Type>
 
-LinkedList :: ~LinkedList()
+LinkedList<Type> :: ~LinkedList()
 
 {
     
@@ -194,11 +196,11 @@ Type LinkedList<Type> :: getFromIndex(int index)
 
 {
     
-    assert(index >= 0 && index < this -> size;);
+    assert(index >= 0 && index < this -> size);
     
     Type data;
     
-    LinearNode<Type> * crrent = front;
+    LinearNode<Type> * current = front;
     
     for(int position = 0; position < index; position++)
         
@@ -226,7 +228,7 @@ Type LinkedList<Type> :: remove(int index)
     
     LinearNode<Type> * current = front;
     
-    LinearNode<Type> * toBeRemoved; = nullptr;
+    LinearNode<Type> * toBeRemoved = nullptr;
     
     LinearNode<Type> * previous = nullptr;
     
@@ -338,7 +340,7 @@ bool LinkedList<Type> :: contains(Type thingtoFind)
     LinearNode<Type> * searchPointer = front;
     for(int index = 0; index < getSize(); index++)
     {
-        if(searchPointer->getData( ) == thingToFind)
+        if(searchPointer->getData( ) == thingtoFind)
         {
             exists = true;
         }
@@ -350,4 +352,4 @@ bool LinkedList<Type> :: contains(Type thingtoFind)
 
 #endif /* LinkedList_hpp */
 
-#endif /* LinkedList_h */
+

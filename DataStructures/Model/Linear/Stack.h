@@ -8,12 +8,12 @@
 
 #ifndef Stack_h
 #define Stack_h
-#include "LinkedList.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/LinkedList.h"
 
 template <class Type>
 class Stack : public LinkedList<Type>
 {
-pubic:
+public:
     Stack();
     ~Stack();
     
@@ -28,7 +28,7 @@ pubic:
     Type getFromIndex(int index);
     Type remove(int index);
     
-}
+};
 template <class Type>
 Stack<Type> :: Stack() : LinkedList<Type>()
 {
@@ -46,7 +46,7 @@ template <class Type>
 void Stack<Type> :: push(Type data)
 {
     LinearNode<Type> * add = new LinearNode<Type>(data);
-    if(this-> == 0)
+    if(this->size == 0)
     {
         this->end = add;
     }
@@ -73,7 +73,7 @@ Type Stack<Type> :: pop()
     assert (this->size > 0);
     Type removed = this->front->getData();
     
-    LinearNode<Type> * removedNode->getNextNode();
+    LinearNode<Type> * removedNode = this->getFront();
     delete removedNode;
     
     this->size--;

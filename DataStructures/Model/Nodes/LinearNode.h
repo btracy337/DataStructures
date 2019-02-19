@@ -8,12 +8,15 @@
 
 #ifndef LinearNode_h
 #define LinearNode_h
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Nodes/Node.hpp"
+#include <assert.h>
 template <class Type>
 class LinearNode : public Node<Type>
 {
 private:
     LinearNode<Type> * next;
 public:
+    LinearNode();
     LinearNode(Type data);
     LinearNode(Type data, LinearNode<Type> * next);
     LinearNode<Type> * getNext();

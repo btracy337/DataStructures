@@ -32,3 +32,9 @@ void Controller :: funLoop()
         cout << "This should loop 100000 times" << endl;
     }
 }
+
+void Controller :: testLinear()
+{
+    LinearTester lookieHere;
+    lookieHere.testVsSTL;
+}

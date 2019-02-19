@@ -10,15 +10,15 @@
 #define LinearTester_hpp
 #include "../Controller/Tools/Timer.hpp"
 
-#include "../Controller/FileController.hpp"
+#include "../Controller/Tools/FileController.hpp"
 
-#include "../Model/Linear/LinkedList.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/LinkedList.h"
 
-#include "../Model/Linear/Stack.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/Stack.h"
 
-#include "../Model/Linear/Queue.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/Queue.h"
 
-#include "../Model/Linear/Array.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/Array.hpp"
 
 #include <iostream>
 

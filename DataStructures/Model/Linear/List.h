@@ -8,7 +8,7 @@
 
 #ifndef List_h
 #define List_h
-#include "LinearNode.h"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Nodes/LinearNode.h"
 
 template <class Type>
 class List
@@ -21,8 +21,8 @@ public:
     virtual Type remove(int index) = 0;
     virtual Type getFromIndex(int index) = 0;
     virtual int getSize() const = 0;
-    virtual LinearNode<Type> = getFront() = 0;
-    virtual LinearNode<Type> = getEnd() = 0;
+    virtual LinearNode<Type> * getFront() = 0;
+    virtual LinearNode<Type> * getEnd() = 0;
     
     
     
