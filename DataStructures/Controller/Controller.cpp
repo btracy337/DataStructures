@@ -36,5 +36,5 @@ void Controller :: funLoop()
 void Controller :: testLinear()
 {
     LinearTester lookieHere;
-    lookieHere.testVsSTL;
+    lookieHere.testVsSTL();
 }

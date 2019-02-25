@@ -10,7 +10,7 @@
 #define Controller_hpp
 
 #include <iostream>
-#include "../Model/Nodes/Node.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Nodes/Node.hpp"
 #include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Nodes/LinearNode.h"
 #include "FileController.hpp"
 #include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Testers/LinearTester.hpp" 

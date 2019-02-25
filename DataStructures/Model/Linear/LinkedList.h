@@ -10,10 +10,6 @@
 #define LinkedList_h
 #include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/List.h"
 using namespace std;
-
-
-
-
 template <class Type>
 
 class LinkedList : public List<Type>
@@ -240,7 +236,7 @@ Type LinkedList<Type> :: remove(int index)
         
         toBeRemoved = front;
         
-        this -> front = this -> front -> betNextNode();
+        this -> front = this -> front -> getNextNode();
         
     }
     

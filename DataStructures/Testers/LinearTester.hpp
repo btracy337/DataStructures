@@ -8,9 +8,9 @@
 
 #ifndef LinearTester_hpp
 #define LinearTester_hpp
-#include "../Controller/Tools/Timer.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Controller/Tools/Timer.hpp"
 
-#include "../Controller/Tools/FileController.hpp"
+#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Controller/Tools/FileController.hpp"
 
 #include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/LinkedList.h"
 
