@@ -9,14 +9,14 @@
 #include "FileController.hpp"
 #include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/LinkedList.h"
 
-LinkedList<CrimeData> FileController :: readDataToList(string fileName)
+LinkedList<CrimeData> FileController :: readDataToList(string filename)
 {
     LinkedList<CrimeData> crimes;
     
     string currentCSVLine;
     int rowCount = 0;
     
-    ifstream dataFile(fileName);
+    ifstream dataFile(filename);
     if(dataFile.is_open())
     {
         while(!dataFile.eof())
@@ -41,14 +41,14 @@ LinkedList<CrimeData> FileController :: readDataToList(string fileName)
     
 }
 
-LinkedList<Music> FileController :: musicDataToList(string fileName)
+LinkedList<Music> FileController :: musicDataToList(string filename)
 {
     LinkedList<Music> musicList;
     
     string currentCSVLine;
     int rowCount = 0;
     
-    ifstream dataFile(fileName);
+    ifstream dataFile(filename);
     if(dataFile.is_open())
     {
         while(!dataFile.eof())

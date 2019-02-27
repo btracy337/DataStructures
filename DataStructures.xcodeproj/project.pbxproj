@@ -29,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B940F6032226E29800E341C1 /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularList.h; sourceTree = "<group>"; };
+		B940F6042226E32600E341C1 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
 		B94B1DE12209DD5900AA0839 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		B94B1DE22209DD5900AA0839 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		B94DF4E02211CF5A0093FC89 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			children = (
 				B96F6B4821FF60D8009DF69A /* Node.hpp */,
 				B9DA7CE02201F8CC00AB9C24 /* LinearNode.h */,
+				B940F6042226E32600E341C1 /* DoubleNode.h */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				B94DF4E12211CF6D0093FC89 /* List.h */,
 				B94DF4E22211D5DB0093FC89 /* Stack.h */,
 				B94DF4E32211D5E40093FC89 /* Queue.h */,
+				B940F6032226E29800E341C1 /* CircularList.h */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
