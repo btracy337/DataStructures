@@ -8,7 +8,7 @@
 
 #ifndef CircularList_h
 #define CircularList_h
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Nodes/DoubleNode.h"
+#include "../Model/Nodes/DoubleNode.h"
 template <class Type>
 
 class CircularList

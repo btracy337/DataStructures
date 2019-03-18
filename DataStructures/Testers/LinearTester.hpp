@@ -8,17 +8,17 @@
 
 #ifndef LinearTester_hpp
 #define LinearTester_hpp
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Controller/Tools/Timer.hpp"
+#include "../Controller/Tools/Timer.hpp"
 
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Controller/Tools/FileController.hpp"
+#include "../Controller/Tools/FileController.hpp"
 
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/LinkedList.h"
+#include "../Model/Linear/LinkedList.h"
 
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/Stack.h"
+#include "../Model/Linear/Stack.h"
 
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/Queue.h"
+#include "../Model/Linear/Queue.h"
 
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/Array.hpp"
+#include "../Model/Linear/Array.hpp"
 
 #include <iostream>
 

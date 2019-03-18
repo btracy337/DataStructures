@@ -8,7 +8,7 @@
 
 #ifndef Stack_h
 #define Stack_h
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/LinkedList.h"
+#include "../Model/Linear/LinkedList.h"
 
 template <class Type>
 class Stack : public LinkedList<Type>

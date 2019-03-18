@@ -44,10 +44,12 @@ public:
     bool areConnected(int source, int target) const;
     std::set<int> neighbors(int vertex) const;
     
+    
+    void depthFirstTraversal(Graph<Type> & graph, int vertex, bool * visited);
     void depthFirstTraversal(Graph<Type> & graph, int vertex);
     void breadthFirstTraversal(Graph<Type> & graph, int vertex);
     int costTraversal(Graph<Type> & graph, int vertex);
-}
+};
 template <class Type>
 const int Graph<Type> :: MAXIMUM;
 
@@ -135,7 +137,7 @@ bool Graph<Type> :: hasUndirectedConnection(int source, int target) const
     assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
     bool isAnEdge = false;
     isAnEdge = adjacencyMatrix[source][target] || adjacencyMatrix[target][source];
-    return isAnEdge
+    return isAnEdge;
 }
 template <class Type>
 bool Graph<Type> :: areConnected(int source, int target) const
@@ -168,7 +170,7 @@ void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex)
     depthFirstTraversal(currentGraph, vertex, visitedVertices);
 }
 template <class Type>
-void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex, bool * visisted)
+void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex, bool * visited)
 {
     std::set<int> connections = currentGraph.neighbors(vertex);
     std::set<int>::iterator setIterator;
@@ -192,7 +194,7 @@ void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex
     std::set<int> :: iterator setIterator;
     std::queue<int> vertexQueue;
     
-    std::fill_n(visited,current.size(), false);
+    std::fill_n(visited,currentGraph.size(), false);
     visited[vertex] = true;
     cout << currentGraph[vertex] << endl;
     vertexQueue.push(vertex);

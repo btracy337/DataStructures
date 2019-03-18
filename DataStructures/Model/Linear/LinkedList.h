@@ -8,7 +8,7 @@
 
 #ifndef LinkedList_h
 #define LinkedList_h
-#include "/Users/btra7742/Documents/C++/DataStructures/DataStructures/Model/Linear/List.h"
+#include "../Model/Linear/List.h"
 using namespace std;
 template <class Type>
 
