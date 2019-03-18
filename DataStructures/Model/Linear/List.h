@@ -8,7 +8,7 @@
 
 #ifndef List_h
 #define List_h
-#include "../Model/Nodes/LinearNode.h"
+#include "../Nodes/LinearNode.h"
 
 template <class Type>
 class List

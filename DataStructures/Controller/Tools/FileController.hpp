@@ -14,11 +14,11 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include "../Model/Linear/Array.hpp"
-#include "../Model/Linear/LinkedList.h"
+#include "../../Model/Linear/Array.hpp"
+#include "../../Model/Linear/LinkedList.h"
 //#include "../Model/NonLinear/BinarySearchTree.hpp"
-#include "../Resources/CrimeData.hpp"
-#include "../Resources/Music.hpp"
+#include "../../Resources/CrimeData.hpp"
+#include "../../Resources/Music.hpp"
 
 using namespace std;
 class FileController

@@ -12,11 +12,11 @@ void LinearTester :: testVsSTL()
     Timer crimeTimerSTL, crimeTimerOOP, musicSTL, musicOOP;
     
     crimeTimerSTL.startTimer();
-    vector<CrimeData> crimes = FileController :: readCrimeDataToVector("/Users/btra7742/Downloads/crime.csv");
+    vector<CrimeData> crimes = FileController :: readCrimeDataToVector("/Users/btra7742/Documents/C++/DataStructures/DataStructures/Resources/crime.csv");
     crimeTimerSTL.stopTimer();
     
     crimeTimerOOP.startTimer();
-    LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/btra7742/Downloads/crime.csv");
+    LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/btra7742/Documents/C++/DataStructures/DataStructures/Resources/crime.csv");
     crimeTimerOOP.stopTimer();
     
     crimeTimerSTL.displayInformation();
@@ -24,11 +24,11 @@ void LinearTester :: testVsSTL()
     cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
     
     musicSTL.startTimer();
-    vector<Music> tunez = FileController :: musicDataToVector("/Users/btra7742/Downloads/music.csv");
+    vector<Music> tunez = FileController :: musicDataToVector("/Users/btra7742/Documents/C++/DataStructures/DataStructures/Resources/music.csv");
     musicSTL.stopTimer();
     
     musicOOP.startTimer();
-    LinkedList<Music> musicList = FileController :: musicDataToList("/Users/btra7742/Downloads/music.csv");
+    LinkedList<Music> musicList = FileController :: musicDataToList("/Users/btra7742/Documents/C++/DataStructures/DataStructures/Resources/music.csv");
     musicOOP.stopTimer();
     
     musicSTL.displayInformation();

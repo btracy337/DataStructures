@@ -8,7 +8,7 @@
 
 #ifndef LinkedList_h
 #define LinkedList_h
-#include "../Model/Linear/List.h"
+#include "List.h"
 using namespace std;
 template <class Type>
 

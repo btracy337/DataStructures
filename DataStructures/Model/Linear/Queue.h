@@ -8,7 +8,7 @@
 
 #ifndef Queue_h
 #define Queue_h
-#include "../Model/Linear/LinkedList.h"
+#include "../../Model/Linear/LinkedList.h"
 #include <iostream>
 using namespace std;
 

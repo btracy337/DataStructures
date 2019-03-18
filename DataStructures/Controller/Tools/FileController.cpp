@@ -7,7 +7,7 @@
 //
 
 #include "FileController.hpp"
-#include "../Model/Linear/LinkedList.h"
+#include "../../Model/Linear/LinkedList.h"
 
 LinkedList<CrimeData> FileController :: readDataToList(string filename)
 {

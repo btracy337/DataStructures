@@ -8,7 +8,7 @@
 
 #ifndef Stack_h
 #define Stack_h
-#include "../Model/Linear/LinkedList.h"
+#include "../../Model/Linear/LinkedList.h"
 
 template <class Type>
 class Stack : public LinkedList<Type>
