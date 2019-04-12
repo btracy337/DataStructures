@@ -58,6 +58,7 @@
 		B9D3093D223FEED3007DDA19 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		B9DA7CE02201F8CC00AB9C24 /* LinearNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearNode.h; sourceTree = "<group>"; };
 		B9DA7CE3220205F600AB9C24 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		B9E70C2F2260D99400917493 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +177,7 @@
 				B96F6B4821FF60D8009DF69A /* Node.hpp */,
 				B9DA7CE02201F8CC00AB9C24 /* LinearNode.h */,
 				B940F6042226E32600E341C1 /* DoubleNode.h */,
+				B9E70C2F2260D99400917493 /* BinaryTreeNode.h */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
