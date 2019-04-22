@@ -8,7 +8,7 @@
 
 #ifndef BinarySearchTree_h
 #define BinarySearchTree_h
-#include "Tree.hpp"
+#include "Tree.h"
 #include <iostream>
 
 using namespace std;
