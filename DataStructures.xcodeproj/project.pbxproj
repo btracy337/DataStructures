@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B933CB5D226E042700104621 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B933CB5B226E042700104621 /* BinaryTreeTester.cpp */; };
 		B94B1DE32209DD5900AA0839 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B94B1DE12209DD5900AA0839 /* Timer.cpp */; };
 		B955F64C2214775E00E92F43 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B955F64A2214775E00E92F43 /* FileController.cpp */; };
 		B955F65B221480FF00E92F43 /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B955F659221480FF00E92F43 /* LinearTester.cpp */; };
@@ -30,6 +31,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B933CB5A226E03F600104621 /* BinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
+		B933CB5B226E042700104621 /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		B933CB5C226E042700104621 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
+		B933CB5E226E045200104621 /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		B940F6032226E29800E341C1 /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularList.h; sourceTree = "<group>"; };
 		B940F6042226E32600E341C1 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
 		B94B1DE12209DD5900AA0839 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
@@ -90,6 +95,8 @@
 				B955F65A221480FF00E92F43 /* LinearTester.hpp */,
 				B9D30932223FDCAA007DDA19 /* GraphTester.cpp */,
 				B9D30933223FDCAA007DDA19 /* GraphTester.hpp */,
+				B933CB5B226E042700104621 /* BinaryTreeTester.cpp */,
+				B933CB5C226E042700104621 /* BinaryTreeTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -154,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				B9D1985B223AA32A00AE7C39 /* Graph.h */,
+				B933CB5A226E03F600104621 /* BinarySearchTree.h */,
+				B933CB5E226E045200104621 /* Tree.h */,
 			);
 			path = "Non-Linear";
 			sourceTree = "<group>";
@@ -253,6 +262,7 @@
 			files = (
 				B94B1DE32209DD5900AA0839 /* Timer.cpp in Sources */,
 				B9D30934223FDCAA007DDA19 /* GraphTester.cpp in Sources */,
+				B933CB5D226E042700104621 /* BinaryTreeTester.cpp in Sources */,
 				B9D3093E223FEED3007DDA19 /* CrimeData.cpp in Sources */,
 				B9D3093F223FEED3007DDA19 /* Music.cpp in Sources */,
 				B96F6B4721FF5EA9009DF69A /* Runner.cpp in Sources */,
